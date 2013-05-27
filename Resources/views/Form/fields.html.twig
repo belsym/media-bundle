@@ -2,9 +2,11 @@
 
 {% block file_widget %}
     {% spaceless %}
+        <div>
         {{ block('form_widget') }}
+        </div>
         {% if image_url is not null %}
-            <img src="{{ asset(image_url) }}" />
+            <img src="{{ asset(image_url) }}" width="300" />
         {% endif %}
     {% endspaceless %}
 {% endblock %}
