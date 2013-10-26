@@ -6,8 +6,7 @@
 
     <parameters>
         <parameter key="belsym_media.extension.image_type.class">Belsym\MediaBundle\Form\ImageTypeExtension</parameter>
-        <parameter key="belsym_media.namers.post_directory_name.class">Belsym\MediaBundle\Namer\PostDirectoryNamer
-        </parameter>
+        <parameter key="belsym_media.namers.post_directory_name.class">Belsym\MediaBundle\Namer\PostDirectoryNamer</parameter>
     </parameters>
 
     <services>
